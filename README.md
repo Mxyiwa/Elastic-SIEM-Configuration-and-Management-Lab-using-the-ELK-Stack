@@ -1,11 +1,8 @@
-# How-to-build-an-Elastic-SIEM-Lab
-
-# PROJECTNAME
+# HOW TO BUILD AN ELASTIC SIEM LAB
 
 ## Objective
-[Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+The objective of building an Elastic SIEM lab is to set up a home lab environment using Elastic SIEM within a Kali Linux VM, where data is forwarded from the VM to the SIEM through the Elastic Defend agent. In this lab, security events are generated on the Kali Linux VM using Nmap, and these logs are then queried and analyzed within the Elastic web interface. To enhance visibility and monitoring, a dashboard is created to visualize the security events, accompanied by an alert system to notify when specific security events are detected.
 
 ### Skills Learned
 [Bullet Points - Remove this afterwards]
