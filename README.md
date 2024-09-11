@@ -1,4 +1,4 @@
-# HOW TO BUILD AN ELASTIC SIEM LAB
+# Elastic Stack SIEM Configuration and Management Lab
 
 ## Objective
 
@@ -6,17 +6,18 @@ The objective of building an Elastic SIEM lab is to set up a home lab environmen
 
 ### Skills Learned
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
+- Advanced understanding of Elastic SIEM concepts and practical application.
+- Proficiency in querying, analysing, and interpreting security event logs.
 - Ability to generate and recognize attack signatures and patterns.
 - Enhanced knowledge of network protocols and security vulnerabilities.
 - Development of critical thinking and problem-solving skills in cybersecurity.
 
 ### Tools Used
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Parallels VM
+- Kali Linux
+- Elastic SIEM
+- Elastic Defend Agent
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
