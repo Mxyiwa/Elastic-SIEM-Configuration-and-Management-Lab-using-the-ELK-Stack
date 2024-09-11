@@ -17,7 +17,7 @@ Elastic SIEM (Security Information and Event Management) is a comprehensive secu
 
 - <b>https://medium.com/@muyiwafadare/escaperoom-blue-team-challenge-analyzing-pcaps-with-wireshark-648d6b57a0c4</b>
 
-## Skills Learned/Developed
+## Skills Learned / Developed
 
 - <b>Advanced understanding of Elastic SIEM concepts and practical application.</b>
 - <b>Ability to generate and recognize attack signatures and patterns.</b>
@@ -26,7 +26,7 @@ Elastic SIEM (Security Information and Event Management) is a comprehensive secu
 - <b>Ability to troubleshoot issues during the Elastic Agent installation, such as modifying commands based on archiitecture (x86_64 to arm64).</b>
 - <b>Enhanced knolwedge to develop configurations to continuously generate and monitor security events to improve SIEM effectiveness.</b>  
 
-## Tools Used
+## Tools / Technologies Used
 
 - <b>Parallels VM.</b>
 - <b>Kali Linux.</b>
@@ -43,26 +43,6 @@ Elastic SIEM (Security Information and Event Management) is a comprehensive secu
 - <b>Step 6: Create dashboards to visualise the Security Events.</b> 
 - <b>Step 7: Create an Alert.</b> 
 
-
-## Challenge Scenario
-<b>As a SOC Analyst, you are part of a company that specialises in hosting web applications through KVM-based Virtual Machines. Over the weekend, one of the Virtual Machines went down, and the site administrators began to panic as they feared this might be the result of malicious activity. They were able to extract a few logs from the compromised environment in hopes that you could investigate and determine what happened.
-</b>
-<br />
-
-<h2>Link to hands on step-by-step guide on how to perform this project</h2>
-
-- <b>https://medium.com/@muyiwafadare/escaperoom-blue-team-challenge-analyzing-pcaps-with-wireshark-648d6b57a0c4</b>
-
-
-## Tools/Technologies Used
-
-- <b>MacOS {Host Device}</b>
-- <b>Parallels VM</b>
-- <b>Kali Linux</b>
-- <b>Wireshark</b>
-- <b>Ghidra</b>
-- <b>ZUI (Brim Security)</b>
-- <b>UPX (Ultimate Packer for eXecutables)</b>
 
 ## Conclusion
 <b>This CTF was most definitely challenging and brain-tasking, but I enjoyed it and I was able to learn a lot. It exposed me to a wide range of tools such as Ghidra, which taught me house to reverse engineer malware, Wireshark for analysing captured traffic and ZUI. I hope this write-up can be useful to anyone who wants to attempt this challenge. Thanks for reading!</b>
