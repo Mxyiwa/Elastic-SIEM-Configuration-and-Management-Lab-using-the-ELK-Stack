@@ -1,4 +1,4 @@
-<h1>Elastic Stack SIEM Configuration and Management Lab</h1>
+<h1>Elastic SIEM Configuration and Management Lab</h1>
 
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/qMpMtvdv/maxresdefault.jpg' border='0' alt='Screenshot-2023-09-05-at-17-54-28'/></a>
 <br />
@@ -45,11 +45,11 @@ Elastic SIEM (Security Information and Event Management) is a comprehensive secu
 
 
 ## Conclusion
-<b>This CTF was most definitely challenging and brain-tasking, but I enjoyed it and I was able to learn a lot. It exposed me to a wide range of tools such as Ghidra, which taught me house to reverse engineer malware, Wireshark for analysing captured traffic and ZUI. I hope this write-up can be useful to anyone who wants to attempt this challenge. Thanks for reading!</b>
+<b>In this lab, I learned to build an Elastic SIEM lab that involved setting up a free Elastic account and configuring a Kali Linux VM for data collection using the Elastic Defend agent. This lab was designed to generate security events with Nmap, which were queried and analysed through the Elastic web interface. A dashboard was created to visualise these security events, and an alert system was implemented to provide real-time notifications for detected threats. This lab aimed to gain practical experience in deploying and managing an Elastic SIEM environment, which will enhance my ability to monitor and respond to security incidents effectively. Thanks for reading!</b>
 
-<h2>Reverse Engineering Malware with Ghidra</h2>
+<h2>Elastic SIEM Dashboard after running a Nmap Scan within 30 minutes of deployment</h2>
 
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/qqVBcVjN/1-s-JDq-Z7l-A-q0a-XUj-YJJMq1g.webp' border='0' alt='Screenshot-2023-09-05-at-17-54-28'/></a>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/W41k8xCQ/scan.png' border='0' alt='Screenshot-2023-09-05-at-17-54-28'/></a>
 <br />
 
 <!--
