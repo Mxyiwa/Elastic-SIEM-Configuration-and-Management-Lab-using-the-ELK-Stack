@@ -5,17 +5,17 @@
 
 <h2>What is an Elastic SIEM?</h2>
 <b>
-Elastic SIEM (Security Information and Event Management) is a comprehensive security solution integrated within the Elastic Stack, which includes Elasticsearch, Kibana, Beats, and Logstash. It is a key component of Elastic Security designed to help organisations detect, prevent, and respond to security threats in real time by collecting and analysing data from various sources across an IT environment.
+Elastic SIEM (Security Information and Event Management) is a comprehensive security solution built using the ELK Stack, which includes Elasticsearch, Logstash, and Kibana. These three technologies provide a powerful solution when working with large data sets which enables us defenders to set up SIEM rules to alert us of attacks on our organisation. It is a key component of Elastic Security designed to help organisations detect, prevent, and respond to security threats in real time by collecting and analysing data from various sources across an IT environment.
 </b>
 
-<h2>Objective</h2>
+<h2>Lab Objectives</h2>
 <b>
- This lab is the walkthrough of my approach to building an Elastic SIEM lab set up in a home lab environment using Elastic SIEM within a Kali Linux VM, where data is forwarded from the VM to the SIEM through the Elastic Defend agent. In this lab, security events are generated on the Kali Linux VM using Nmap, and these logs are then queried and analyzed within the Elastic web interface. To enhance visibility and monitoring, a dashboard is created to visualize the security events, accompanied by an alert system to notify when specific security events are detected.
+This lab is the walkthrough of my approach to building an Elastic SIEM lab set up in a home lab environment using Elastic SIEM within a Kali Linux VM, where data is forwarded from the VM to the SIEM through the Elastic Defend agent. In this lab, security events are generated on the Kali Linux VM using Nmap, and these logs are then queried and analysed within the Elastic web interface. To enhance visibility and monitoring, a dashboard is created to visualise the security events, and  an alert system to notify when specific security events are detected.
 </b>
 
 <h2>Link to hands on step-by-step guide on how to perform this project</h2>
 
-- <b>https://medium.com/@muyiwafadare/escaperoom-blue-team-challenge-analyzing-pcaps-with-wireshark-648d6b57a0c4</b>
+- <b>https://medium.com/@mxyiwa/how-to-build-an-elastic-siem-lab-8ebd0bd74f28</b>
 
 ## Skills Learned / Developed
 
@@ -28,20 +28,20 @@ Elastic SIEM (Security Information and Event Management) is a comprehensive secu
 
 ## Tools / Technologies Used
 
-- <b>Parallels VM.</b>
-- <b>Kali Linux.</b>
-- <b>Elastic SIEM.</b>
-- <b>Elastic Defend Agent.</b> 
+- <b>Parallels VM</b>
+- <b>Kali Linux</b>
+- <b>Elastic SIEM</b>
+- <b>Elastic Defend Agent</b> 
 
 ## Steps
 
 - <b>Step 1: Set up an Elastic Account.</b> 
 - <b>Step 2: Set up a Kali Linux VM.</b> 
-- <b>Step 3: Install Elastic Defend as the Software Agent to Collect Logs and Forward the Data to the Elastic SIEM.</b> 
+- <b>Step 3: Install Elastic Defend as the Software Agent to Collect Logs and Forward the Audit logs and Telemetry from the Kali Linux VM to the Elastic SIEM.</b> 
 - <b>Step 4: Generate Security Events on the Kali Linux VM using Nmap.</b> 
 - <b>Step 5: Query and analyse the Security Event logs generated in the Elastic SIEM using the Elastic web interface.</b> 
 - <b>Step 6: Create dashboards to visualise the Security Events.</b> 
-- <b>Step 7: Create an Alert.</b> 
+- <b>Step 7: Create alerts to notify the security events that are detected.</b> 
 
 
 ## Conclusion
